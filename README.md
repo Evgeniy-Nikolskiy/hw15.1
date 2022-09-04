@@ -21,8 +21,7 @@ $ ssh -A cloud-user@51.250.67.191
 Оттуда заходим на виртуалку в приватной подсети, убеждаемся что есть выход в интернет, проверяем внешний IP:
 ```
 [cloud-user@test-public-vm ~]$ ssh 192.168.20.18
-[cloud-user@test-private-vm ~]$ curl ifconfig.co
-51.250.67.117
+[cloud-user@test-private-vm ~]$ curl ifconfig.co 51.250.67.117
 ```
 
 Пробуем подключиться напрямую к этому адресу:
