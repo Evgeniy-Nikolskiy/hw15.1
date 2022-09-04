@@ -1,7 +1,7 @@
 # Homework 15.1  
 
 Деплоим:
-'''
+```
 ...
 Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
 
@@ -10,7 +10,8 @@ Outputs:
 public_nat_ip = "51.250.67.117"
 test_private_ip = "192.168.20.18"
 test_public_ip = "51.250.67.191"
-'''
+```
+
 Тестируем. Заходим на виртуалку в публичной подсети, убеждаемся что есть выход в интернет, проверяем внешний IP:
 
 $ ssh -A cloud-user@51.250.67.191
