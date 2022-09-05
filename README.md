@@ -5,9 +5,9 @@
 ...
 Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
 
-public_nat_ip = "84.201.129.17"
-test_private_ip = "192.168.20.30"
-test_public_ip = "84.201.156.124"
+public_nat_ip = "51.250.67.117"
+test_private_ip = "192.168.20.18"
+test_public_ip = "51.250.67.191"
 ```
 
 Тестируем. Заходим на виртуалку в публичной подсети, убеждаемся что есть выход в интернет, проверяем внешний IP:
